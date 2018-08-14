@@ -1,20 +1,20 @@
-plugins {
+//plugins {
  //   Can not use libraries.kotlin.version here per https://stackoverflow.com/questions/37555196/in-gradle-how-to-use-a-variable-for-a-plugin-version
-   id 'org.jetbrains.kotlin.jvm' version '1.1.60'
-   id 'java'
-}
+  // id 'org.jetbrains.kotlin.jvm' version '1.1.60'
+   //id 'java'
+//}
 
-description = "Kotlin tests for Mockito."
-kotlin {
-   experimental {
-      coroutines "enable"
-   }
-}
+//description = "Kotlin tests for Mockito."
+//kotlin {
+  // experimental {
+    //  coroutines "enable"
+   //}
+//}
 
-dependencies {
-   testCompile project(":")
-   testCompile libraries.junit4
+//dependencies {
+ //  testCompile project(":")
+  // testCompile libraries.junit4
 
-    testCompile libraries.kotlin.stdlib
-    testCompile libraries.kotlin.coroutines
-}
+   // testCompile libraries.kotlin.stdlib
+    //testCompile libraries.kotlin.coroutines
+//}
