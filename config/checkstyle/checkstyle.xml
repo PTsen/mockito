@@ -3,6 +3,8 @@
     "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
     "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 <module name="Checker">
+    <property name="charset" value="UTF-8"/>
+
     <!--
      Different editors and IDEs may insert or remove trailing
      whitespaces at the end of source lines or newline characyers
