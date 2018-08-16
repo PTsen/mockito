@@ -5,14 +5,14 @@
 package org.mockitousage.stubbing;
 
 import static org.assertj.core.api.Assertions.assertThat;
-//import static org.assertj.core.api.Assertions.within;
+import static org.assertj.core.api.Assertions.within;
 import static org.mockito.AdditionalAnswers.answer;
 import static org.mockito.AdditionalAnswers.answerVoid;
 import static org.mockito.AdditionalAnswers.returnsArgAt;
 import static org.mockito.AdditionalAnswers.returnsFirstArg;
 import static org.mockito.AdditionalAnswers.returnsLastArg;
 import static org.mockito.AdditionalAnswers.returnsSecondArg;
-//import static org.mockito.AdditionalAnswers.answersWithDelay;
+import static org.mockito.AdditionalAnswers.answersWithDelay;
 import static org.mockito.BDDMockito.any;
 import static org.mockito.BDDMockito.anyInt;
 import static org.mockito.BDDMockito.anyString;
@@ -37,7 +37,7 @@ import org.mockito.stubbing.VoidAnswer4;
 import org.mockito.stubbing.VoidAnswer5;
 import org.mockitousage.IMethods;
 
-//import java.util.Date;
+import java.util.Date;
 
 @RunWith(MockitoJUnitRunner.class)
 public class StubbingWithAdditionalAnswersTest {
