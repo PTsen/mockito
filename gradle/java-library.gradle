@@ -17,7 +17,7 @@ test {
 
 tasks.withType(Checkstyle) {
     reports {
-        xml.enabled false
+        xml.enabled true
         html.enabled true
         html.stylesheet resources.text.fromFile("$rootDir/config/checkstyle/checkstyle.xsl")
     }
